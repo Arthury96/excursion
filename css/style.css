@@ -3,14 +3,46 @@
   text-align: center;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4 a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
   font-weight: normal;
   font-size: 50px;
   color: white;
 }
-h3 a {
+h4 a {
   color: aquamarine;
   font-size: 16px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 100;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 42px;
+  color: white;
+}
+
+h3 {
+  color: gray;
+  font-size: 21px;
+  font-weight: 100;
+}
+
+footer h3 {
+  text-align: right;
+}
+
+.phone {
+  position: relative;
+  top: 20px;
+}
+
+.textUnderPhone {
+  position: relative;
+  top: 20px;
 }
